@@ -19,11 +19,11 @@ var getElementsByClassName = function(className){
       });
     }
     for(var i = 0; i < element.childNodes.length; i++){
-	 	  check(element.childNodes[i]);
-    }
-  };
-  check(document.body);
-  return nodeList;
+     check(element.childNodes[i]);
+   }
+ };
+ check(document.body);
+ return nodeList;
 };
 
 //document.body, element.childNodes, and element.classList
